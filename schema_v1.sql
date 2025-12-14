@@ -1,4 +1,4 @@
-CREATE TABLE  (
+CREATE TABLE admin_account (
    int(11) NOT NULL AUTO_INCREMENT,
    varchar(50) NOT NULL UNIQUE,
    varchar(50) NOT NULL UNIQUE,
