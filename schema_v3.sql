@@ -1,0 +1,11 @@
+CREATE TABLE  (
+   int(11) NOT NULL AUTO_INCREMENT,
+   varchar(20) NOT NULL,
+   varchar(255) NOT NULL,
+   varchar(255) NOT NULL,
+   int(11) NOT NULL,
+  PRIMARY KEY (),
+  UNIQUE KEY  (),
+  UNIQUE KEY  ()
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+

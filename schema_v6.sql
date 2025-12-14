@@ -1,0 +1,17 @@
+CREATE TABLE  (
+   int(11) NOT NULL AUTO_INCREMENT,
+   int(11) NOT NULL,
+   int(11) NOT NULL,
+   varchar(50) DEFAULT NULL,
+   varchar(255) DEFAULT NULL,
+   varchar(255) DEFAULT NULL,
+   date NOT NULL,
+   date NOT NULL,
+   date NOT NULL,
+   int(11) DEFAULT NULL,
+  PRIMARY KEY (),
+  KEY  (),
+  KEY  (),
+  CONSTRAINT  FOREIGN KEY () REFERENCES  (),
+  CONSTRAINT  FOREIGN KEY () REFERENCES  ()
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
