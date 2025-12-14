@@ -19,6 +19,7 @@ INSERT INTO admin_account (admin_email, admin_password) VALUES
 ('admin18@bsu.edu.ph','AdminPass018'),
 ('admin19@bsu.edu.ph','AdminPass019'),
 ('admin20@bsu.edu.ph','AdminPass020');
+
 INSERT INTO students_account (student_name, g_suite, sr_code, program) VALUES
 ('Juan Dela Cruz','juan.delacruz@gsuite.bsu.edu.ph','SR-2024-0001','BS Information Technology'),
 ('Maria Santos','maria.santos@gsuite.bsu.edu.ph','SR-2024-0002','BS Computer Science'),
@@ -40,6 +41,7 @@ INSERT INTO students_account (student_name, g_suite, sr_code, program) VALUES
 ('Beatrice Tan','beatrice.tan@gsuite.bsu.edu.ph','SR-2024-0018','BS Information Systems'),
 ('Joshua Perez','joshua.perez@gsuite.bsu.edu.ph','SR-2024-0019','BS Information Technology'),
 ('Camille Chua','camille.chua@gsuite.bsu.edu.ph','SR-2024-0020','BS Computer Science');
+
 INSERT INTO books (book_number, book_title, book_author, year_published) VALUES
 ('BK-0001','Introduction to Programming','John Smith',2018),
 ('BK-0002','Database Management Systems','Carlos Hernandez',2019),
@@ -81,6 +83,7 @@ INSERT INTO books (book_number, book_title, book_author, year_published) VALUES
 (18,18,'2024-09-18','2024-10-02','2024-10-03'),
 (19,19,'2024-09-19','2024-10-03',NULL),
 (20,20,'2024-09-20','2024-10-04','2024-10-04');
+
 INSERT INTO borrowed_book (student_id, book_id, date_borrowed, due_date, date_returned) VALUES
 (1,1,'2024-09-01','2024-09-15',NULL),
 (2,2,'2024-09-02','2024-09-16','2024-09-14'),
@@ -113,6 +116,7 @@ INSERT INTO login_logs (student_id, date_login, time_login) VALUES
 (18,'2024-09-05', '08:55:00'),
 (19,'2024-09-05', '09:25:00'),
 (20,'2024-09-05', '09:50:00');
+
 INSERT INTO borrowed_book (student_id, book_id, date_borrowed, due_date, date_returned) VALUES
 (1,1,'2024-09-01','2024-09-15',NULL),
 (2,2,'2024-09-02','2024-09-16','2024-09-14'),
