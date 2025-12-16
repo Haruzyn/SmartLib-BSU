@@ -21,26 +21,26 @@ INSERT INTO admin_account (admin_email, admin_password) VALUES
 ('admin20@bsu.edu.ph','AdminPass020');
 
 INSERT INTO students_account (student_name, g_suite, sr_code, program) VALUES
-('Juan Dela Cruz','juan.delacruz@gsuite.bsu.edu.ph','SR-2024-0001','BS Information Technology'),
-('Maria Santos','maria.santos@gsuite.bsu.edu.ph','SR-2024-0002','BS Computer Science'),
-('Jose Reyes','jose.reyes@gsuite.bsu.edu.ph','SR-2024-0003','BS Information Systems'),
-('Ana Lopez','ana.lopez@gsuite.bsu.edu.ph','SR-2024-0004','BS Information Technology'),
-('Mark Villanueva','mark.villanueva@gsuite.bsu.edu.ph','SR-2024-0005','BS Computer Science'),
-('Paolo Garcia','paolo.garcia@gsuite.bsu.edu.ph','SR-2024-0006','BS Information Systems'),
-('Angela Cruz','angela.cruz@gsuite.bsu.edu.ph','SR-2024-0007','BS Information Technology'),
-('Daniel Flores','daniel.flores@gsuite.bsu.edu.ph','SR-2024-0008','BS Computer Science'),
-('Sophia Mendoza','sophia.mendoza@gsuite.bsu.edu.ph','SR-2024-0009','BS Information Systems'),
-('Christian Ramos','christian.ramos@gsuite.bsu.edu.ph','SR-2024-0010','BS Information Technology'),
-('Kevin Navarro','kevin.navarro@gsuite.bsu.edu.ph','SR-2024-0011','BS Computer Science'),
-('Jasmine Bautista','jasmine.bautista@gsuite.bsu.edu.ph','SR-2024-0012','BS Information Systems'),
-('Ryan Castillo','ryan.castillo@gsuite.bsu.edu.ph','SR-2024-0013','BS Information Technology'),
-('Nicole Torres','nicole.torres@gsuite.bsu.edu.ph','SR-2024-0014','BS Computer Science'),
-('Albert Lim','albert.lim@gsuite.bsu.edu.ph','SR-2024-0015','BS Information Systems'),
-('Patricia Ong','patricia.ong@gsuite.bsu.edu.ph','SR-2024-0016','BS Information Technology'),
-('Miguel Aquino','miguel.aquino@gsuite.bsu.edu.ph','SR-2024-0017','BS Computer Science'),
-('Beatrice Tan','beatrice.tan@gsuite.bsu.edu.ph','SR-2024-0018','BS Information Systems'),
-('Joshua Perez','joshua.perez@gsuite.bsu.edu.ph','SR-2024-0019','BS Information Technology'),
-('Camille Chua','camille.chua@gsuite.bsu.edu.ph','SR-2024-0020','BS Computer Science');
+('Alysson Gabriel C. Matanguihan','24-33110@g.batstate-u.edu.ph','24-33110','BSIT'),
+('Angelo Kerbie M. Miranda','24-39919@g.batstate-u.edu.ph','24-39919','BSIT'),
+('John Michael B. Mendoza','24-37477@g.batstate-u.edu.ph','24-37477','BSIT'),
+('Karen Celine M. Mendoza','24-31534@g.batstate-u.edu.ph','24-31534','BSIT'),
+('Kyle Jillian Mojica','24-30541@g.batstate-u.edu.ph','24-30541','BSIT'),
+('Maru Janmark F. Almarez','24-35142@g.batstate-u.edu.ph','24-35142','BSIT'),
+('Toni Cezhar L. Vergara','24-36747@g.batstate-u.edu.ph','24-36747','BSIT'),
+('Gilian F. Lajara','24-35688@g.batstate-u.edu.ph','24-35688','BSIT'),
+('Louise Andrei D. Quizon','24-30077@g.batstate-u.edu.ph','24-30077','BSIT'),
+('Enrique A. Dimaculangan','24-33429@g.batstate-u.edu.ph','24-33429','BSIT'),
+('Aeron Jean D. Libuit','24-37031@g.batstate-u.edu.ph','24-37031','BSIT'),
+('Cylas Joaquin B. Talatala','24-32453@g.batstate-u.edu.ph','24-32453','BSIT'),
+('James Dee P. Dimaano','24-37104@g.batstate-u.edu.ph','24-37104','BSIT'),
+('Ashly Yuri J. Saludo','24-33523@g.batstate-u.edu.ph','24-33523','BSIT'),
+('Mark Joseph G. Manalo','24-37149@g.batstate-u.edu.ph','24-37149','BSIT'),
+('Tristan Jes C. Munlawin','24-39091@g.batstate-u.edu.ph','24-39091','BSIT'),
+('Medwin Adam S. Villapando','24-39885@g.batstate-u.edu.ph','24-39885','BSIT'),
+('Ben Jairo A. Maralit','24-39926@g.batstate-u.edu.ph','24-39926','BSIT'),
+('Gwenn Ellese Z. Fonte','24-31341@g.batstate-u.edu.ph','24-31341','BSIT'),
+('Ann Tracy S. Antonio','24-31492@g.batstate-u.edu.ph','24-31492','BSIT');
 
 INSERT INTO books (book_number, book_title, book_author, year_published) VALUES
 ('BK-0001','Introduction to Programming','John Smith',2018),
@@ -62,7 +62,9 @@ INSERT INTO books (book_number, book_title, book_author, year_published) VALUES
 ('BK-0017','C++ Programming','Bjarne Stroustrup',2017),
 ('BK-0018','Linux System Administration','Brian Ward',2021),
 ('BK-0019','Data Analytics','Wes McKinney',2020),
-('BK-0020','IT Project Management','Kathy Schwalbe',2018);INSERT INTO borrowed_book (student_id, book_id, date_borrowed, due_date, date_returned) VALUES
+('BK-0020','IT Project Management','Kathy Schwalbe',2018);
+
+INSERT INTO borrowed_book (student_id, book_id, date_borrowed, due_date, date_returned) VALUES
 (1,1,'2024-09-01','2024-09-15',NULL),
 (2,2,'2024-09-02','2024-09-16','2024-09-14'),
 (3,3,'2024-09-03','2024-09-17',NULL),
@@ -83,17 +85,6 @@ INSERT INTO books (book_number, book_title, book_author, year_published) VALUES
 (18,18,'2024-09-18','2024-10-02','2024-10-03'),
 (19,19,'2024-09-19','2024-10-03',NULL),
 (20,20,'2024-09-20','2024-10-04','2024-10-04');
-
-INSERT INTO borrowed_book (student_id, book_id, date_borrowed, due_date, date_returned) VALUES
-(1,1,'2024-09-01','2024-09-15',NULL),
-(2,2,'2024-09-02','2024-09-16','2024-09-14'),
-(3,3,'2024-09-03','2024-09-17',NULL),
-(4,4,'2024-09-04','2024-09-18','2024-09-20'),
-(5,5,'2024-09-05','2024-09-19',NULL),
-(6,6,'2024-09-06','2024-09-20','2024-09-19'),
-(7,7,'2024-09-07','2024-09-21',NULL),
-(8,8,'2024-09-08','2024-09-22','2024-09-22'),
-(9,9,'2024-09-09','2024-09-23',NULL),
 
 INSERT INTO login_logs (student_id, date_login, time_login) VALUES
 (1, '2024-09-01', '08:15:00'),
@@ -116,28 +107,6 @@ INSERT INTO login_logs (student_id, date_login, time_login) VALUES
 (18,'2024-09-05', '08:55:00'),
 (19,'2024-09-05', '09:25:00'),
 (20,'2024-09-05', '09:50:00');
-
-INSERT INTO borrowed_book (student_id, book_id, date_borrowed, due_date, date_returned) VALUES
-(1,1,'2024-09-01','2024-09-15',NULL),
-(2,2,'2024-09-02','2024-09-16','2024-09-14'),
-(3,3,'2024-09-03','2024-09-17',NULL),
-(4,4,'2024-09-04','2024-09-18','2024-09-20'),
-(5,5,'2024-09-05','2024-09-19',NULL),
-(6,6,'2024-09-06','2024-09-20','2024-09-19'),
-(7,7,'2024-09-07','2024-09-21',NULL),
-(8,8,'2024-09-08','2024-09-22','2024-09-22'),
-(9,9,'2024-09-09','2024-09-23',NULL),
-(10,10,'2024-09-10','2024-09-24','2024-09-25'),
-(11,11,'2024-09-11','2024-09-25',NULL),
-(12,12,'2024-09-12','2024-09-26','2024-09-26'),
-(13,13,'2024-09-13','2024-09-27',NULL),
-(14,14,'2024-09-14','2024-09-28','2024-09-29'),
-(15,15,'2024-09-15','2024-09-29',NULL),
-(16,16,'2024-09-16','2024-09-30','2024-09-30'),
-(17,17,'2024-09-17','2024-10-01',NULL),
-(18,18,'2024-09-18','2024-10-02','2024-10-03'),
-(19,19,'2024-09-19','2024-10-03',NULL),
-(20,20,'2024-09-20','2024-10-04','2024-10-04');
 
 INSERT INTO notifications (student_id, book_id, borrow_id, message, notification_type, is_read) VALUES
 (1,1,1,'Book due soon','REMINDER',0),
@@ -162,13 +131,13 @@ INSERT INTO notifications (student_id, book_id, borrow_id, message, notification
 (20,20,20,'Return confirmed','INFO',1);
 
 INSERT INTO returned_book (student_id, book_id, sr_code, student_name, book_title, date_borrowed, due_date, date_returned, days_late) VALUES
-(2,2,'SR-2024-0002','Maria Santos','Database Management Systems','2024-09-02','2024-09-16','2024-09-14',0),
-(4,4,'SR-2024-0004','Ana Lopez','Data Structures and Algorithms','2024-09-04','2024-09-18','2024-09-20',2),
-(6,6,'SR-2024-0006','Paolo Garcia','Computer Networks','2024-09-06','2024-09-20','2024-09-19',0),
-(8,8,'SR-2024-0008','Daniel Flores','Artificial Intelligence Basics','2024-09-08','2024-09-22','2024-09-22',0),
-(10,10,'SR-2024-0010','Christian Ramos','Cybersecurity Principles','2024-09-10','2024-09-24','2024-09-25',1),
-(12,12,'SR-2024-0012','Jasmine Bautista','Cloud Computing','2024-09-12','2024-09-26','2024-09-26',0),
-(14,14,'SR-2024-0014','Nicole Torres','Computer Graphics','2024-09-14','2024-09-28','2024-09-29',1),
-(16,16,'SR-2024-0016','Patricia Ong','Java Programming','2024-09-16','2024-09-30','2024-09-30',0),
-(18,18,'SR-2024-0018','Beatrice Tan','Linux System Administration','2024-09-18','2024-10-02','2024-10-03',1),
-(20,20,'SR-2024-0020','Camille Chua','IT Project Management','2024-09-20','2024-10-04','2024-10-04',0);
+(2,2,'24-39919','Angelo Kerbie M. Miranda','Database Management Systems','2024-09-02','2024-09-16','2024-09-14',0),
+(4,4,'24-31534','Karen Celine M. Mendoza','Data Structures and Algorithms','2024-09-04','2024-09-18','2024-09-20',2),
+(6,6,'24-35142','Maru Janmark F. Almarez','Computer Networks','2024-09-06','2024-09-20','2024-09-19',0),
+(8,8,'24-35688','Gilian F. Lajara','Artificial Intelligence Basics','2024-09-08','2024-09-22','2024-09-22',0),
+(10,10,'24-33429','Enrique A. Dimaculangan','Cybersecurity Principles','2024-09-10','2024-09-24','2024-09-25',1),
+(12,12,'24-32453','Cylas Joaquin B. Talatala','Cloud Computing','2024-09-12','2024-09-26','2024-09-26',0),
+(14,14,'24-33523','Ashly Yuri J. Saludo','Computer Graphics','2024-09-14','2024-09-28','2024-09-29',1),
+(16,16,'24-39091','Tristan Jes C. Munlawin','Java Programming','2024-09-16','2024-09-30','2024-09-30',0),
+(18,18,'24-39926','Ben Jairo A. Maralit','Linux System Administration','2024-09-18','2024-10-02','2024-10-03',1),
+(20,20,'24-31492','Ann Tracy S. Antonio','IT Project Management','2024-09-20','2024-10-04','2024-10-04',0);
